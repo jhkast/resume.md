@@ -17,7 +17,9 @@ customers, and managers.
 
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
-### <span>Bike and Ski Mechanic, *REI San Francisco*</span> <span>Apr 2022 -- Present</span>
+<div class="job-experience" markdown="1">
+
+### <span>Bike and Ski Mechanic, *REI San Francisco*</span> <span>Apr 2022 – Present</span>
 
 #### Responsibilities:
 - Diagnose and repair complex issues in bicycles, skis, and snowboards.
@@ -25,9 +27,12 @@ hand -->
 - Provide expert customer service and advice on equipment and maintenance.
 
 #### Key Accomplishments
-- Redesigned ski/snowboard tuning process to increase revenuse by 80% while improving quality and enhancing shop efficiency.
+- Redesigned ski/snowboard tuning process to increase revenuse by 80% while improving quality and reducing turnaround time by 75%.
 
-### <span>Director of Engineering for Resharp, *The Hillman Group*</span> <span>Aug 2019 -- Oct 2021</span>
+</div>
+<div class="job-experience">
+
+### <span>Director of Engineering for Resharp, *The Hillman Group*</span> <span>Aug 2019 – Oct 2021</span>
 
 #### Responsibilities:
 - Oversaw the ongoing development of the Resharp kiosk, including design, manufacturing, and product scaling.
@@ -40,9 +45,12 @@ hand -->
 - Established a reliable supply chain, sourcing vendors for a 300+ component BOM.
 - Created a production line and obtained CSA compliance, facilitating successful deployment in 900 ACE stores nationally.
 - Generated $2.8M in revenue from 400,000 sharpened knives in 2022, demonstrating commercial success.
-- Patent 11850698: Automatic knife sharpening machine with sharpness detection
+- Patent 11850698: *Automatic knife sharpening machine with sharpness detection*
 
-### <span>Director of Engineering, *Resharp* </span> <span>Jan 2018 -- Aug 2019</span>
+</div>
+<div class="job-experience">
+
+### <span>Director of Engineering, *Resharp* </span> <span>Jan 2018 – Aug 2019</span>
 
 #### Responsibilities:
 - Led the initial engineering development of a robotic kiosk revolutionizing knife sharpening services.
@@ -53,9 +61,12 @@ Collaborated closely with electrical and software engineers for a holistic produ
 #### Key Accomplishments:
 - Pioneered the development of the Resharp concept from the ground up, leading to small-batch production readiness.
 - Developed technology sufficiently to attract competitive acquisition offers.
-- Patent 10272535: Method for automatically resharpening a knife
+- Patent 10272535: *Method for automatically resharpening a knife*
 
-### <span>Teaching Assistant, *Stanford Product Realization Lab*</span> <span>Sep 2015 -- Jun 2017</span>
+</div>
+<div class="job-experience">
+
+### <span>Teaching Assistant, *Stanford Product Realization Lab*</span> <span>Sep 2015 – Jun 2017</span>
 
 #### Responsibilities:
 - Supervised students, ensuring safety and providing guidance on tool usage, fabrication, and design.
@@ -65,12 +76,14 @@ Collaborated closely with electrical and software engineers for a holistic produ
 #### Key Accomplishments
 - Developed woodworking and wood turning programs to high educational and safety standards.
 
+</div>
+
 ## Education
 
-### <span>Stanford University, Palo Alto, CA</span> <span>2015 -- 2017</span>
+### <span>Stanford University, Palo Alto, CA</span> <span>2015 – 2017</span>
 M.S. in Mechanical Engineering, concentration in Product Realization
 
-### <span>Stanford University, Palo Alto, CA.</span> <span>2011 -- 2015</span>
+### <span>Stanford University, Palo Alto, CA.</span> <span>2011 – 2015</span>
 B.S. in Product Design
 
 ## Skills

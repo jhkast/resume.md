@@ -11,6 +11,7 @@ import sys
 import tempfile
 
 import markdown
+import mistletoe
 
 preamble = """\
 <html lang="en">
@@ -112,7 +113,7 @@ def make_html(md: str, prefix: str = "resume") -> str:
     return "".join(
         (
             preamble.format(title=title(md), css=css),
-            markdown.markdown(md, extensions=["smarty", "abbr"]),
+            mistletoe.markdown(md),
             postamble,
         )
     )
