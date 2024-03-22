@@ -6,7 +6,7 @@
 body {
     color: #000000;
     background: #EEEEEE;
-    font: 1.1em "Helvetica Nue", Helvetica, Arial, sans-serif;
+    font: 1.1em "Avenir", Helvetica, Arial, sans-serif;
     line-height: 1.2;
     margin: 40px 0;
 }
@@ -22,24 +22,28 @@ body {
 h1 {
     text-transform: uppercase;
     text-align: center;
-    font-size: 200%;
-    margin: 0;
+    font-size: 250%;
+    margin: 0.1em;
     padding: 0;
+    color: forestgreen;
+    font-family: "Constantia";
 }
 h2 {
-    border-bottom: 1px solid #000000;
+    border-bottom: 4px double forestgreen;
     text-transform: uppercase;
     font-size: 150%;
     margin: 1.2em 0 0.5em 0;
     padding: 0;
+    color: forestgreen;
+    font-family: "Constantia";
 }
 h3 {
-    font-size: 120%;
+    font-size: 110%;
     margin: 0.8em 0 0.3em 0;
     padding: 0;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid forestgreen;
     padding-bottom: 0.3em;
     margin-bottom: 0.5em;
 }
@@ -61,7 +65,7 @@ h1 + ul {
     margin: 0;
     padding: 0;
     margin-bottom: 20px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 4px double forestgreen;
     padding-bottom: 15px;
     }
 h1 + ul > li {
@@ -78,10 +82,17 @@ h1 + ul > li:last-child:after {
 /* p immediately after contact list = summary */
 h1 + ul + p {
     margin: 1em 0;
+    font-style: italic;
+    text-align: justify;
 }
 .job-experience {
     page-break-inside: avoid;
-    display: block;
+    margin-bottom: 0.2em
+}
+.date {
+    color: forestgreen;
+    font: 1em "Constantia";
+    
 }
 @media print {
     body {
@@ -142,22 +153,20 @@ h1 + ul + p {
 <!-- The unordered list immediately after the h1 will be formatted on a single
 line. It is intended to be used for contact details -->
 <ul>
-<li><a href="mailto:jeff@jhkast.com">jeff@jhkast.com</a></li>
 <li>(914) 960-3962</li>
+<li>jeff@jhkast.com</li>
 <li>San Francisco, CA</li>
 </ul>
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
-<p>Hands-on Mechanical Engineer with strong knowledge of SolidWorks, design for
+<p>Hands-on mechanical engineer with strong knowledge of SolidWorks, design for
 manufacturing, mechanisms, sourcing, and shipping new products.
-Effective cross-functional collaborator who builds relationships with teams of engineers,
-customers, and managers.</p>
+Effective cross-functional collaborator who emphasizes building and maintaining
+relationships with teams of engineers, customers, and managers.</p>
 <h2>Experience</h2>
-<!-- You have to wrap the "left" and "right" half of these headings in spans by
-hand -->
-<div class="job-experience" markdown="1">
-<h3><span>Bike and Ski Mechanic, <em>REI San Francisco</em></span> <span>Apr 2022 – Present</span></h3>
-<h4>Responsibilities:</h4>
+<div class="job-experience">
+<h3><span>Bike and Ski Mechanic, <em>REI San Francisco</em></span> <span class="date">Apr 2022 – Present</span></h3>
+<h4>Responsibilities</h4>
 <ul>
 <li>Diagnose and repair complex issues in bicycles, skis, and snowboards.</li>
 <li>Maintain tools and equipment for optimal performance and safety.</li>
@@ -165,46 +174,45 @@ hand -->
 </ul>
 <h4>Key Accomplishments</h4>
 <ul>
-<li>Redesigned ski/snowboard tuning process to increase revenuse by 80% while improving quality and reducing turnaround time by 75%.</li>
+<li>Redesigned ski/snowboard tuning process to increase revenue by 80% while improving quality and reducing turnaround time by 75% compared to previous year.</li>
 </ul>
 </div>
 <div class="job-experience">
-<h3><span>Director of Engineering for Resharp, <em>The Hillman Group</em></span> <span>Aug 2019 – Oct 2021</span></h3>
-<h4>Responsibilities:</h4>
+<h3><span>Director of Engineering for Resharp, <em>The Hillman Group</em></span> <span class="date">Aug 2019 – Oct 2021</span></h3>
+<h4>Responsibilities</h4>
 <ul>
 <li>Oversaw the ongoing development of the Resharp kiosk, including design, manufacturing, and product scaling.</li>
 <li>Managed and cultivated the supply chain, including vendor sourcing and procurement.</li>
 <li>Collaborated with interdisciplinary engineering teams (electrical, software) to ensure seamless product integration.</li>
-<li>Led data management and analysis related to product performance and reliability.</li>
+<li>Led data management and integration with ERP and PLM systems.</li>
 </ul>
-<h4>Key Accomplishments:</h4>
+<h4>Key Accomplishments</h4>
 <ul>
 <li>Spearheaded the redesign of Resharp for increased robustness and DFM-focused improvements, streamlining production processes.</li>
 <li>Established a reliable supply chain, sourcing vendors for a 300+ component BOM.</li>
-<li>Created a production line and obtained CSA compliance, facilitating successful deployment in 900 ACE stores nationally.</li>
-<li>Generated $2.8M in revenue from 400,000 sharpened knives in 2022, demonstrating commercial success.</li>
-<li>Patent 11850698: <em>Automatic knife sharpening machine with sharpness detection</em></li>
+<li>Created a production line and obtained CSA compliance, facilitating successful deployment in 900 ACE Hardware stores nationally.</li>
+<li>Machines have sharpened almost one million knives, demonstrating commercial success.</li>
+<li>Patent num. 11850698: <em>Automatic knife sharpening machine with sharpness detection</em></li>
 </ul>
 </div>
 <div class="job-experience">
-<h3><span>Director of Engineering, <em>Resharp</em> </span> <span>Jan 2018 – Aug 2019</span></h3>
-<h4>Responsibilities:</h4>
+<h3><span>Director of Engineering, <em>Resharp</em> </span> <span class="date">Jan 2018 – Aug 2019</span></h3>
+<h4>Responsibilities</h4>
 <ul>
 <li>Led the initial engineering development of a robotic kiosk revolutionizing knife sharpening services.</li>
 <li>Managed sourcing, supply chain, manufacturing, and data management operations in early stages.</li>
-<li>Oversaw a team of three mechanical engineers.
-Collaborated closely with electrical and software engineers for a holistic product development approach.</li>
+<li>Collaborated closely with electrical and software engineers for a holistic product development approach while overseeing a team of three mechanical engineers.</li>
 </ul>
-<h4>Key Accomplishments:</h4>
+<h4>Key Accomplishments</h4>
 <ul>
 <li>Pioneered the development of the Resharp concept from the ground up, leading to small-batch production readiness.</li>
 <li>Developed technology sufficiently to attract competitive acquisition offers.</li>
-<li>Patent 10272535: <em>Method for automatically resharpening a knife</em></li>
+<li>Patent num. 10272535: <em>Method for automatically resharpening a knife</em></li>
 </ul>
 </div>
 <div class="job-experience">
-<h3><span>Teaching Assistant, <em>Stanford Product Realization Lab</em></span> <span>Sep 2015 – Jun 2017</span></h3>
-<h4>Responsibilities:</h4>
+<h3><span>Teaching Assistant, <em>Stanford Product Realization Lab</em></span> <span class="date">Sept 2015 – Jun 2017</span></h3>
+<h4>Responsibilities</h4>
 <ul>
 <li>Supervised students, ensuring safety and providing guidance on tool usage, fabrication, and design.</li>
 <li>Mentored students in an introductory design and manufacturing course.</li>
@@ -216,9 +224,9 @@ Collaborated closely with electrical and software engineers for a holistic produ
 </ul>
 </div>
 <h2>Education</h2>
-<h3><span>Stanford University, Palo Alto, CA</span> <span>2015 – 2017</span></h3>
-<p>M.S. in Mechanical Engineering, concentration in Product Realization</p>
-<h3><span>Stanford University, Palo Alto, CA.</span> <span>2011 – 2015</span></h3>
+<h3><span>Stanford University, Palo Alto, CA</span> <span class="date">2015 – 2017</span></h3>
+<p>M.S. in Mechanical Engineering with concentration in Product Realization</p>
+<h3><span>Stanford University, Palo Alto, CA.</span> <span class="date">2011 – 2015</span></h3>
 <p>B.S. in Product Design</p>
 <h2>Skills</h2>
 <ul>
@@ -232,11 +240,21 @@ Collaborated closely with electrical and software engineers for a holistic produ
 <li>GD&amp;T - Competent</li>
 </ul>
 <h2>Interests</h2>
+<h4>Bikepacking</h4>
 <ul>
-<li>Bikepacking: Pedaled over 5,000 miles with over 350,000 feet of climbing on various bike tours since 2016, including a five month trip from Banff to Palm Springs via large sections of the Great Divide Mountain Bike Route, Arizona Trail, and a plethora of remote dirt roads of the Mountain West; the Silk Road Mountain Race in remote Kyrgyzstan in Central Asia; and countless shorter adventures.</li>
-<li>Woodworking: Hobbyist furniture making with a small shop in my basement.</li>
-<li>Zen Buddhism: Decade-long student of meditation in the style of Suzuki Roshi.</li>
-<li>Crafting: Knitting and candlemaking.</li>
+<li>Pedaled over 5,000 miles with over 350,000 feet of climbing on various bike tours since 2016, including a five month trip from Banff to Palm Springs via large sections of the Great Divide Mountain Bike Route, Arizona Trail, and a plethora of remote dirt roads of the Mountain West; the Silk Road Mountain Race in remote Kyrgyzstan in Central Asia; and countless shorter adventures.</li>
+</ul>
+<h4>Woodworking</h4>
+<ul>
+<li>Hobbyist furniture making with a small shop in my basement.</li>
+</ul>
+<h4>Crafting</h4>
+<ul>
+<li>Knitting and candlemaking.</li>
+</ul>
+<h4>Zen Buddhism</h4>
+<ul>
+<li>Decade-long student of meditation in the style of Suzuki Roshi.</li>
 </ul>
 </div>
 </body>

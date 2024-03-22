@@ -1,7 +1,7 @@
 body {
     color: #000000;
     background: #EEEEEE;
-    font: 1.1em "Helvetica Nue", Helvetica, Arial, sans-serif;
+    font: 1.1em "Avenir", Helvetica, Arial, sans-serif;
     line-height: 1.2;
     margin: 40px 0;
 }
@@ -17,24 +17,28 @@ body {
 h1 {
     text-transform: uppercase;
     text-align: center;
-    font-size: 200%;
-    margin: 0;
+    font-size: 250%;
+    margin: 0.1em;
     padding: 0;
+    color: forestgreen;
+    font-family: "Constantia";
 }
 h2 {
-    border-bottom: 1px solid #000000;
+    border-bottom: 4px double forestgreen;
     text-transform: uppercase;
     font-size: 150%;
     margin: 1.2em 0 0.5em 0;
     padding: 0;
+    color: forestgreen;
+    font-family: "Constantia";
 }
 h3 {
-    font-size: 120%;
+    font-size: 110%;
     margin: 0.8em 0 0.3em 0;
     padding: 0;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid forestgreen;
     padding-bottom: 0.3em;
     margin-bottom: 0.5em;
 }
@@ -56,7 +60,7 @@ h1 + ul {
     margin: 0;
     padding: 0;
     margin-bottom: 20px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 4px double forestgreen;
     padding-bottom: 15px;
     }
 h1 + ul > li {
@@ -73,10 +77,17 @@ h1 + ul > li:last-child:after {
 /* p immediately after contact list = summary */
 h1 + ul + p {
     margin: 1em 0;
+    font-style: italic;
+    text-align: justify;
 }
 .job-experience {
     page-break-inside: avoid;
-    display: block;
+    margin-bottom: 0.2em
+}
+.date {
+    color: forestgreen;
+    font: 1em "Constantia";
+    
 }
 @media print {
     body {
